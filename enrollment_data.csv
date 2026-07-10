@@ -1,0 +1,68 @@
+record_id,term,campus,program,school,students_enrolled,students_withdrew,students_completed_term
+1,2024 Fall,Ivany Campus,Business Administration,Business,19,2,17
+2,2024 Fall,Kingstec Campus,Business Administration,Business,47,2,45
+3,2024 Fall,Akerley Campus,Information Technology,Business,30,1,29
+4,2024 Fall,Ivany Campus,Information Technology,Business,51,2,49
+5,2024 Fall,Kingstec Campus,Information Technology,Business,18,1,17
+6,2024 Fall,Akerley Campus,Electronics Engineering Technology,Engineering,17,1,16
+7,2024 Fall,Truro Campus,Electronics Engineering Technology,Engineering,49,2,47
+8,2024 Fall,IT Campus,Practical Nursing,Health,26,1,25
+9,2024 Fall,Akerley Campus,Practical Nursing,Health,27,2,25
+10,2024 Fall,Ivany Campus,Practical Nursing,Health,19,2,17
+11,2024 Fall,Truro Campus,Practical Nursing,Health,46,4,42
+12,2024 Fall,Kingstec Campus,Practical Nursing,Health,35,3,32
+13,2024 Fall,IT Campus,Early Childhood Education,Human Services,38,2,36
+14,2024 Fall,Akerley Campus,Early Childhood Education,Human Services,59,6,53
+15,2024 Fall,Kingstec Campus,Early Childhood Education,Human Services,36,3,33
+16,2024 Fall,Akerley Campus,Carpentry,Trades,22,2,20
+17,2024 Fall,Kingstec Campus,Carpentry,Trades,41,1,40
+18,2025 Winter,IT Campus,Business Administration,Business,50,4,46
+19,2025 Winter,Akerley Campus,Business Administration,Business,35,2,33
+20,2025 Winter,Truro Campus,Business Administration,Business,44,2,42
+21,2025 Winter,Akerley Campus,Information Technology,Business,19,1,18
+22,2025 Winter,Ivany Campus,Information Technology,Business,56,5,51
+23,2025 Winter,Truro Campus,Information Technology,Business,43,2,41
+24,2025 Winter,IT Campus,Electronics Engineering Technology,Engineering,16,2,14
+25,2025 Winter,Ivany Campus,Electronics Engineering Technology,Engineering,46,2,44
+26,2025 Winter,Truro Campus,Electronics Engineering Technology,Engineering,23,2,21
+27,2025 Winter,IT Campus,Practical Nursing,Health,46,2,44
+28,2025 Winter,Akerley Campus,Practical Nursing,Health,50,3,47
+29,2025 Winter,Truro Campus,Practical Nursing,Health,50,3,47
+30,2025 Winter,Kingstec Campus,Practical Nursing,Health,37,3,34
+31,2025 Winter,Kingstec Campus,Early Childhood Education,Human Services,15,1,14
+32,2025 Winter,IT Campus,Carpentry,Trades,31,2,29
+33,2025 Winter,Ivany Campus,Carpentry,Trades,54,4,50
+34,2025 Winter,Truro Campus,Carpentry,Trades,59,6,53
+35,2025 Winter,Kingstec Campus,Carpentry,Trades,56,5,51
+36,2025 Fall,Akerley Campus,Business Administration,Business,58,6,52
+37,2025 Fall,IT Campus,Information Technology,Business,18,1,17
+38,2025 Fall,Akerley Campus,Information Technology,Business,43,2,41
+39,2025 Fall,Kingstec Campus,Electronics Engineering Technology,Engineering,54,3,51
+40,2025 Fall,IT Campus,Practical Nursing,Health,37,3,34
+41,2025 Fall,Akerley Campus,Practical Nursing,Health,22,2,20
+42,2025 Fall,Ivany Campus,Practical Nursing,Health,44,3,41
+43,2025 Fall,IT Campus,Early Childhood Education,Human Services,31,2,29
+44,2025 Fall,Akerley Campus,Early Childhood Education,Human Services,48,2,46
+45,2025 Fall,Ivany Campus,Early Childhood Education,Human Services,48,3,45
+46,2025 Fall,Truro Campus,Early Childhood Education,Human Services,16,2,14
+47,2025 Fall,IT Campus,Carpentry,Trades,20,2,18
+48,2025 Fall,Kingstec Campus,Carpentry,Trades,49,4,45
+49,2026 Winter,IT Campus,Business Administration,Business,55,3,52
+50,2026 Winter,Akerley Campus,Business Administration,Business,27,3,24
+51,2026 Winter,Ivany Campus,Business Administration,Business,29,1,28
+52,2026 Winter,Truro Campus,Business Administration,Business,16,2,14
+53,2026 Winter,Kingstec Campus,Business Administration,Business,45,2,43
+54,2026 Winter,IT Campus,Information Technology,Business,37,3,34
+55,2026 Winter,Akerley Campus,Information Technology,Business,37,4,33
+56,2026 Winter,Ivany Campus,Electronics Engineering Technology,Engineering,54,6,48
+57,2026 Winter,Truro Campus,Electronics Engineering Technology,Engineering,56,3,53
+58,2026 Winter,Kingstec Campus,Electronics Engineering Technology,Engineering,57,2,55
+59,2026 Winter,Akerley Campus,Practical Nursing,Health,27,2,25
+60,2026 Winter,Truro Campus,Practical Nursing,Health,36,1,35
+61,2026 Winter,Kingstec Campus,Practical Nursing,Health,40,3,37
+62,2026 Winter,IT Campus,Early Childhood Education,Human Services,20,2,18
+63,2026 Winter,Kingstec Campus,Early Childhood Education,Human Services,56,2,54
+64,2026 Winter,IT Campus,Carpentry,Trades,45,4,41
+65,2026 Winter,Ivany Campus,Carpentry,Trades,23,1,22
+66,2026 Winter,Truro Campus,Carpentry,Trades,56,2,54
+67,2026 Winter,Kingstec Campus,Carpentry,Trades,23,2,21

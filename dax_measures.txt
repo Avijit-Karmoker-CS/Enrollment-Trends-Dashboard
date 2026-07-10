@@ -1,0 +1,52 @@
+DAX MEASURES — Enrollment Dashboard
+=====================================
+Create these in Power BI Desktop: Modeling tab > New Measure, on the
+Enrollment table. Type or paste the formula, then press Enter.
+
+
+Total Enrolled =
+SUM(Enrollment[Students Enrolled])
+
+
+Total Withdrew =
+SUM(Enrollment[Students Withdrew])
+
+
+Overall Withdrawal Rate =
+DIVIDE([Total Withdrew], [Total Enrolled], 0)
+-- DIVIDE handles the divide-by-zero case safely, returning 0 instead of an
+-- error if Total Enrolled is 0 for a filtered selection.
+
+
+Total Completed =
+SUM(Enrollment[Students Completed Term])
+
+
+Completion Rate =
+DIVIDE([Total Completed], [Total Enrolled], 0)
+
+
+Enrolled Prior Term =
+CALCULATE(
+    [Total Enrolled],
+    DATEADD('Term Order'[Term Date], -1, MONTH)
+)
+-- Optional / advanced: requires a separate Term Order date table with one
+-- row per term, marked as a Date Table, and a relationship to Enrollment.
+-- Included here to show the kind of time-comparison measure this role's
+-- "environmental scanning and trend research" work would use. If you skip
+-- building the date table, skip this measure too — the others below don't
+-- depend on it.
+
+
+Enrollment Change vs Prior Term =
+[Total Enrolled] - [Enrolled Prior Term]
+
+
+Highest Enrollment Program =
+CALCULATE(
+    SELECTEDVALUE(Enrollment[Program]),
+    TOPN(1, VALUES(Enrollment[Program]), [Total Enrolled], DESC)
+)
+-- Returns the name of whichever program has the highest total enrolled,
+-- given the current filter context. Useful on a card visual.
