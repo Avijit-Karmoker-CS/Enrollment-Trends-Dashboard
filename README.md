@@ -3,7 +3,7 @@
 ## What this project is
 A practice project to learn Power BI, Power Query (M), and DAX by building
 a small enrollment-trend dashboard. The data is synthetic (made up by a
-script, not real institutional data), styled to look like a typical
+script (not real institutional data), styled to look like a typical
 term-by-term enrollment export.
 
 ## What's inside
@@ -18,9 +18,7 @@ term-by-term enrollment export.
 
 ## Important: this is a starting point, not a finished .pbix
 Power BI dashboards are built and saved in Power BI Desktop, a Windows/Mac
-application — they can't be generated as code. So instead of a fake finished
-file, this project gives you everything you need to build a real one
-yourself:
+application — they can't be generated as code. 
 
 ### Step 1 — Get the data in
 Open Power BI Desktop → Get Data → Text/CSV → select `enrollment_data.csv`.
@@ -57,7 +55,7 @@ Suggested visuals:
 ### Step 5 — Save and screenshot
 Save as `enrollment_dashboard.pbix`. Take a screenshot of the finished
 report page and save it in this folder as `dashboard_screenshot.png` before
-you push the project to GitHub — a screenshot is what shows up when someone
+You push the project to GitHub — a screenshot is what shows up when someone
 looks at the repo, since GitHub can't preview .pbix files directly.
 
 ## What this demonstrates
@@ -68,8 +66,3 @@ looks at the repo, since GitHub can't preview .pbix files directly.
 - Dashboard design choices for an audience that needs to scan results
   quickly (cards for headline numbers, trend line for change over time)
 
-## Before you use this on your resume
-Actually build it in Power BI Desktop and take your own screenshot. If you
-can explain why `DIVIDE` is used instead of a plain `/` in the DAX measures
-(hint: divide-by-zero handling), you're ready to talk about it in an
-interview.
